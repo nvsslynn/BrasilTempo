@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>{{ titulo }}</title>
+</head>
+<body class="bg-dark text-white">
+    <h1 class="text-center fw-bold mt-4 mb-1">Brasil<span class="text-success">Tempo</span></h1>
+
+    <div class="text-center mt-3">
+        <a class="btn btn-primary px-4 py-2" href="{{ url_for('rio') }}">Rio de Janeiro, RJ</a>
+    </div>
+
+    <div class="text-center mt-3">
+        <a class="btn btn-primary px-4 py-2" href="{{ url_for('sp') }}">São Paulo, SP</a>
+    </div>
+
+    <div class="text-center mt-3">
+        <a class="btn btn-primary px-4 py-2" href="{{ url_for('salvador') }}">Salvador, BA</a>
+    </div>
+
+    <div class="text-center mt-3">
+        <a class="btn btn-primary px-4 py-2" href="{{ url_for('mangaratiba') }}">Mangaratiba, RJ</a>
+    </div>
+
+    <div class="text-center mt-3">
+        <a class="btn btn-primary px-4 py-2" href="{{ url_for('portoalegre') }}">Porto Alegre, RS</a>
+    </div>
+
+</body>
+</html>
