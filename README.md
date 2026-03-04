@@ -21,7 +21,7 @@
 <p>Primeiro de tudo, tenha o Python 3.9.13 e lembre-se de configurar o pip no caso de estar utilizando um sistema Linux.</p>
 <p>Use o pip no seu terminal/cmd para instalar os requisitos digitando:</p>
 <span style="color:green;font-style:italic;">- python3 -m pip install -r requirements.txt</span><br><br>
-<p>Após a instalação, basta rodar o arquivo main.py na raiz utilizando o comando:</p>
+<p>Após a instalação, crie uma chave de API <a href="console.hgbrasil.com">aqui</a> e coloque na variável `key` do arquivo main. Após isso, basta rodar o arquivo main.py na raiz utilizando o comando:</p>
 <span style="color:green;font-style:italic;">- python3 main.py</span>
 
 <h2>Mais informações</h2>
