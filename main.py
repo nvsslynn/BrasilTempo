@@ -5,7 +5,7 @@ app = Flask(__name__)
 api = "https://api.hgbrasil.com/weather"
 # A API usada é fornecida pelo site HGBrasil.com
 
-key = "87d7c4fb" # key da API HG Brasil
+key = "SUA_CHAVE_DE_API" # key da API HG Brasil
 
 def getData(city):
     dados = requests.get(api, params={"city_name": city, "key":key})
@@ -40,5 +40,6 @@ def salvador():
 def portoalegre():
     data = getData("Porto Alegre, RS")
     return render_template("dados.html", titulo="Clima Porto Alegre, RS", dados=data)
+
 
 app.run()
